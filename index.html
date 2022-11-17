@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-md  navbar-dark">
                 <div class="container-fluid d-flex">
@@ -43,7 +43,7 @@
     </header>
 
     <main>
-        <section class="start green">     <!--start-->
+        <section class="start green mt-5">     <!--start-->
             <div class="container">   
                 <div class="row d-flex flex-column align-items-center text-center">
                     <img src="./img/avatar.svg" alt="avatar" class="mb-5"> 
@@ -80,7 +80,7 @@
                     <div class="col-12 col-sm-6 col-lg-4 mb-3"> 
                       <img src="./img/game.png" alt="icon">
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4" mb-3> 
+                    <div class="col-12 col-sm-6 col-lg-4 mb-3"> 
                       <img src="./img/safe.png" alt="icon">
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 mb-3"> 
@@ -143,36 +143,45 @@
                     <div class="d-flex justify-content-start">
                         <button type="button" class="btn btn-success">Send</button>
                     </div>
-
-
-
-
-
-                </div>
-            </div>
-        </section>
-
-        <section class="info">    <!--info-->
-            <div class="container">
-                <div class="row d-flex justify-content-between">
-                    <div class="col-12 col-sm-4">
-                        <div class="border-black">location</div>
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <div class="border-black">social</div>
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <div class="border-black">about</div>
-                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="container">
+        <section class="info">    <!--info-->
+            <div class="container">
+                <div class="row d-flex justify-content-between text-center">
+                    <div class="col-12 col-sm-4">
+                        <h3>Location</h3>
+                        <span class="fw-bold">2215 John Daniel Drive Clark, MO</span>
+                        <br>
+                        <span class="fw-bold">54243</span>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <h3>AROUND THE WEB</h3>
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <h3>ABOUT FREELANCER</h3>
+                        <p>Freelancer is a free to use, open source bootstrap theme created by <a href="" class="free">Start Bootstrap</a>.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="container text-center mt-3">
             <div class="row">
-                <div class="col-12">copy</div>
+                <div class="col-12">
+                    <p>Copyright &#169; Your website 2019</p>
+                </div>
             </div>
         </div>
     </footer>
